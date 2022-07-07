@@ -1,11 +1,12 @@
 /* styles.css */
 
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: futura, sans-serif;
     background-color: hsl(60,100,96,0.2);
+    text-transform: lowercase;
 }
 
-img{
+.profile_image{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,4 +15,16 @@ img{
 .food_image{
     height: 400px;
     width: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.recipes h3{
+    text-align: center;
 }
